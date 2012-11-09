@@ -12,6 +12,9 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Easily implement dynamic FAQ pages into your rails app}
   gem.homepage      = "https://github.com/joofsh/joofaq"
 
+  gem.add_dependency "rdiscount", "1.6.8"
+  gem.add_dependency "railties", "~> 3.1"
+
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
