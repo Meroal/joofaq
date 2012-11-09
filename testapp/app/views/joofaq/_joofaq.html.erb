@@ -1,0 +1,5 @@
+%dl
+  - Faq.sections.each do |section|
+    %h2= section.name
+    - section.items.each do |item|
+      = render partial: item.template, locals: {item: item}

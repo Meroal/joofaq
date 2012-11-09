@@ -1,0 +1,8 @@
+<dl>
+  <% Joofaq.sections.each do |section| %>
+    <h2> <%= section.name %> </h2>
+    <% section.items.each do |item| %>
+      <%= render partial: item.template, locals: {item: item} %>
+    <% end %>
+  <% end %>
+</dl>
