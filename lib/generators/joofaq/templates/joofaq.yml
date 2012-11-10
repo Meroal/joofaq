@@ -1,10 +1,10 @@
-First Category:
+First_Category_Name:
 - subtitle: first_category_subtitle_here
 - q: question_1_text_here
   a: answer_1_text_here
 - q: question_2_text_here
   a: answer_2_text_here
-Second Category:
+Second_Category_Name:
 - q: question_1_text_here
   a: answer_1_text_here
 - q: question_2_text_here
