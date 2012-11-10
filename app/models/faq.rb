@@ -46,7 +46,7 @@ class Faq
   end
 
   class << self
-    def data; data = YAML.load_file 'db/joofaq.yml' end
+    def data; data = YAML.load_file 'db/faq.yml' end
     def markdown str
       RDiscount.new(str).to_html.html_safe
     end
