@@ -1,5 +1,4 @@
 Testapp::Application.routes.draw do
-
   match '/faq' => 'Faq#index'
 
   # The priority is based upon order of creation:
