@@ -11,7 +11,7 @@ Add this line to your application's Gemfile:
 
 ## Usage
 
-After adding the joofaq gem to your Gemfile, run the joofaq gem generator command:
+After adding joofaq to your Gemfile, run the joofaq gem generator command:
 
     rails generate joofaq
 
