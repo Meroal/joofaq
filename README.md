@@ -17,10 +17,10 @@ After adding the joofaq gem to your Gemfile, run the joofaq gem generator comman
 
 This will create a faq.yml file in your db/ directory. To add new sections and questions, follow the format shown in the faq.yml:
 
-   First Category:
-   - subtitle: first_category_subtitle_here
-   - q: question_1_text_here
-     a: answer_1_text_here
+    First Category:
+    - subtitle: first_category_subtitle_here
+    - q: question_1_text_here
+      a: answer_1_text_here
 
 Subtitles are optional and you can add as many questions as you need. Remember, this is a yaml file so format (especially indentation) are important for it to work properly.
 
