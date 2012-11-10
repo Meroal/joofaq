@@ -1,11 +1,11 @@
-First_Category_Name:
+First_category_name_here:
 - subtitle: first_category_subtitle_here
 - q: question_1_text_here
   a: answer_1_text_here
 - q: question_2_text_here
   a: answer_2_text_here
-Second_Category_Name:
+Second_category_name_here:
 - q: question_1_text_here
   a: answer_1_text_here
 - q: question_2_text_here
-  a: Add more using the same format. Subtitle is completely optional
+  a: Add more using the same format. Subtitle is completely optional (delete the line if you are not using one)
