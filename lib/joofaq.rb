@@ -1,4 +1,5 @@
 require "joofaq/version"
+require 'rdiscount'
 
 module Joofaq
   module Rails
