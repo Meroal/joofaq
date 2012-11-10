@@ -1,11 +1,5 @@
 Testapp::Application.routes.draw do
-
-
-  match 'index' => 'joofaq#index', as: 'faq'
-
-  #resources :joofaq
-  match '/faq' => 'joofaq#index'
-  #match 'index' => 'joofaq#index', as: 'faq'
+  match "/faq" => "Faq#index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

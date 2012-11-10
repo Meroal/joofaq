@@ -17,7 +17,7 @@ class Joofaq
       end
     end
 
-    def name_html; Joofaq.markdown @name end
+    def name_html; Faq.markdown @name end
   end
 
   class Subtitle
@@ -28,7 +28,7 @@ class Joofaq
     end
 
     def template; 'joofaq/subtitle' end
-    def to_html; Joofaq.markdown @str end
+    def to_html; Faq.markdown @str end
   end
 
   class QAPair
@@ -41,8 +41,8 @@ class Joofaq
     end
 
     def template; 'joofaq/qapair' end
-    def q_html; Joofaq.markdown @q end
-    def a_html; Joofaq.markdown @a end
+    def q_html; Faq.markdown @q end
+    def a_html; Faq.markdown @a end
   end
 
   class << self
@@ -51,7 +51,7 @@ class Joofaq
       RDiscount.new(str).to_html.html_safe
     end
     def sections
-      data.map {|k,v| Joofaq::Section.new name: k, item: v }
+      data.map {|k,v| Faq::Section.new name: k, item: v }
     end
   end
 end
