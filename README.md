@@ -26,6 +26,8 @@ Subtitles are optional and you can add as many questions as you need. Remember, 
 
 The generator also created several view files in a new app/views/faq/ directory.  This gives you access to the views so that you can change the styling as you please.
 
+You can now view your app's faq at '/faq' (localhost:3000/faq). Can you change this routing in your config/routes.rb file.
+
 ## Contributing
 
 1. Fork it
