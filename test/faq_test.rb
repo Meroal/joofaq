@@ -2,7 +2,9 @@ require_relative 'test_helper'
 
 class FaqMock < Faq
   def self.data
-    YAML.load_file '../lib/generators/joofaq/templates/joofaq.yml'
+    this_dir = File.dirname(__FILE__)
+    canned_data = this_dir + '/../lib/generators/joofaq/templates/joofaq.yml'
+    YAML.load_file canned_data
   end
 end
 
