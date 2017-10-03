@@ -13,7 +13,7 @@ Gem::Specification.new do |gem|
   gem.homepage      = "https://github.com/joofsh/joofaq"
 
   gem.add_dependency "rdiscount", "1.6.8"
-  gem.add_dependency "railties", "~> 3.1"
+  gem.add_dependency "railties", "~> 5.0"
 
   gem.add_development_dependency 'pry-de'
 
