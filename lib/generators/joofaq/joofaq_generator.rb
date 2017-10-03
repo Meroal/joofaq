@@ -9,6 +9,6 @@ class JoofaqGenerator < Rails::Generators::Base
   end
 
   def create_route
-    route "match '/faq' => 'Faq#index'"
+    route "get '/faq', to: 'faq#index'"
   end
 end
